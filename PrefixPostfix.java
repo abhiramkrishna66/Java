@@ -1,4 +1,4 @@
-public class public class PrefixPostfix{
+public class PrefixPostfix{
     public static void main(String[] args){
         int x=10;
         //int v= --x + x++ + ++x + --x + x++;
