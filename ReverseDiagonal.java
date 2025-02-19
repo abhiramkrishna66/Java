@@ -3,7 +3,7 @@ public class ReverseDiagonal{
     public static void main(String[] args){
         int temp=0;
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter the number of rows and colums:");
+        System.out.print("Enter the number of rows and columns:");
         int n=sc.nextInt();
         int matrix[][]=new int[n][n];
         for(int i=0;i<n;i++){
