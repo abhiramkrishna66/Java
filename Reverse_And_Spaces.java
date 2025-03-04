@@ -1,14 +1,9 @@
-public class Reverse_And_Spaces {
+public class Reverse_And_Spaces{
     public static void main(String[] args) {
-        String input="I love  Java Programming";
-        String[] words=input.trim().split("\\s+");
-        StringBuilder str=new StringBuilder();
-        for(int i=0;i<words.length;i++){
-            str.append(words[i]);
-            if(i>0){
-                str.append(" ");
-            }
+        String str=" I LOVE  JAVA    PROGRAMMING   ";
+        String[] words=str.trim().split("\\s+");
+        for(int i=words.length-1;i>=0;i--){
+            System.out.print(words[i]+" ");
         }
-        System.out.print(str.toString());
     }
 }
